@@ -1,0 +1,148 @@
+{
+    "testConfig": {
+        "title": "Usability Test",
+        "description": "Self-paced usability test",
+        "estimatedTime": "20 min",
+        "prototypeUrl": ""
+    },
+    "screening": {
+        "title": "Screening Questions",
+        "description": "Help us understand your background.",
+        "questions": [
+            {
+                "id": "experience",
+                "type": "radio",
+                "question": "How familiar are you with this type of product?",
+                "required": true,
+                "options": [
+                    {
+                        "value": "expert",
+                        "label": "Expert - I use similar products daily"
+                    },
+                    {
+                        "value": "intermediate",
+                        "label": "Intermediate - I've used similar products before"
+                    },
+                    {
+                        "value": "beginner",
+                        "label": "Beginner - I'm new to this type of product"
+                    }
+                ]
+            },
+            {
+                "id": "role",
+                "type": "radio",
+                "question": "Which best describes you?",
+                "required": true,
+                "options": [
+                    {
+                        "value": "personal",
+                        "label": "Personal user"
+                    },
+                    {
+                        "value": "professional",
+                        "label": "Professional user"
+                    },
+                    {
+                        "value": "evaluator",
+                        "label": "Evaluating for others"
+                    }
+                ]
+            }
+        ]
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Task 1",
+            "scenario": "Complete the first goal in the prototype",
+            "icon": "ScanLine",
+            "questions": {
+                "completed": "Were you able to complete this goal?",
+                "ease": "How easy was this task?",
+                "feedback": "What did you think about this task? Any hesitations or confusion?"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Task 2",
+            "scenario": "Complete the second goal",
+            "icon": "LayoutGrid",
+            "questions": {
+                "completed": "Were you able to complete this goal?",
+                "ease": "How easy was this task?",
+                "feedback": "What did you think about this task? Any hesitations or confusion?"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Task 3",
+            "scenario": "Complete the third goal",
+            "icon": "DollarSign",
+            "questions": {
+                "completed": "Were you able to complete this goal?",
+                "ease": "How easy was this task?",
+                "feedback": "What did you think about this task? Any hesitations or confusion?"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Task 4",
+            "scenario": "Complete the fourth goal",
+            "icon": "Store",
+            "questions": {
+                "completed": "Were you able to complete this goal?",
+                "ease": "How easy was this task?",
+                "feedback": "What did you think about this task? Any hesitations or confusion?"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Task 5",
+            "scenario": "Complete the fifth goal",
+            "icon": "Package",
+            "questions": {
+                "completed": "Were you able to complete this goal?",
+                "ease": "How easy was this task?",
+                "feedback": "What did you think about this task? Any hesitations or confusion?"
+            }
+        }
+    ],
+    "closing": {
+        "questions": [
+            {
+                "id": "overall",
+                "type": "rating",
+                "question": "Overall, how would you rate this experience?",
+                "min": 1,
+                "max": 5,
+                "minLabel": "Very Poor",
+                "maxLabel": "Excellent"
+            },
+            {
+                "id": "recommend",
+                "type": "radio",
+                "question": "Would you recommend this product to others?",
+                "options": [
+                    {
+                        "value": "yes",
+                        "label": "Yes"
+                    },
+                    {
+                        "value": "maybe",
+                        "label": "Maybe"
+                    },
+                    {
+                        "value": "no",
+                        "label": "No"
+                    }
+                ]
+            },
+            {
+                "id": "feedback",
+                "type": "textarea",
+                "question": "Any final thoughts or suggestions?"
+            }
+        ]
+    }
+}

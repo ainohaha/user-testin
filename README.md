@@ -137,7 +137,7 @@ Build and serve the `build/` directory with any static file server.
 
 If this template helped you, consider supporting continued development:
 
-[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/yourusername)
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/aigenuzer)
 
 ## 📄 License
 

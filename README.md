@@ -3,7 +3,7 @@
 An open-source, self-hosted usability testing platform that lets you run unmoderated usability studies with screen recording, task flows, and AI-powered analysis.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Development-ff5e5b?logo=ko-fi)](https://ko-fi.com/yourusername)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Development-ff5e5b?logo=ko-fi)](https://ko-fi.com/aigenuzer)
 
 ## ✨ Features
 
